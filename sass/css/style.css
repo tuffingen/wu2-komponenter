@@ -1,5 +1,5 @@
 body {
-  background-color: #929a9e;
+  background-color: #181b1f;
 }
 
 * {
@@ -10,6 +10,7 @@ body {
 
 .navbar {
   background-color: #2d3844;
+  line-height: 51px;
 }
 .navbar nav {
   display: flex;
@@ -28,14 +29,16 @@ body {
 .navbar ul > li > a {
   text-decoration: none;
   background-color: #2d3844;
-  border-left: solid 1px #929a9e;
+  border-left: solid 0.7px #929a9e5e;
   font-size: 14px;
   color: #929a9e;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 .navbar-Fantasy {
-  border-right: solid 1px #929a9e;
+  border-right: solid 0.7px #929a9e5e;
 }
 
 /*# sourceMappingURL=style.css.map */
