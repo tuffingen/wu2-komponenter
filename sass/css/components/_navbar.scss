@@ -1,0 +1,44 @@
+*{
+   font-family: $font-family;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar{
+
+    background-color: $background-color;
+    
+    nav{
+        display: flex;
+        padding-left: 6rem;
+        min-height: 51.38px;
+        
+    }
+    img{
+        height: 51.38px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        padding-left: 0;
+
+    }
+
+    
+    ul>li>a{
+        text-decoration: none;
+        background-color: $background-color;
+        border-left: solid 1px $text-color;
+        font-size: 14px;
+        color: $text-color;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    &-Fantasy{
+        border-right: solid 1px $text-color;
+    }
+    
+
+}

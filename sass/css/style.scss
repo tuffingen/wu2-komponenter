@@ -1,2 +1,10 @@
+$font-family: 'Open Sans', sans-serif;
+$background-color: #2d3844;
+$text-color: #929a9e;
+
+body{
+    background-color: #929a9e
+}
+
 @import "components/navbar";
 @import "components/container"
