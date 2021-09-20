@@ -75,16 +75,16 @@
     .navsearchborder{
         position: absolute;
         top: 15px;
-        right: 237px;
+        right: 220px;
         z-index: 1;
         border-left: 1px solid #495867;
         width: 0;
         height: 20px;
     }
     button{
-        position: absolute;
-        top: 15px;
-        right: 220px;
+        position: relative;
+        top: -2px;
+        right: 18px;
         z-index: 1;
         color: #929a9e;
         margin: 0;
@@ -92,6 +92,9 @@
         padding: 0;
         background: 0 0;
         cursor: pointer;
+    }
+    input{
+        color: $text-color;
     }
     .navbell{
         color: $text-color;
