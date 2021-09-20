@@ -15,6 +15,7 @@
         min-height: 51.38px;
         
     }
+
     img{
         height: 51.38px;
     }
@@ -24,11 +25,11 @@
         list-style: none;
         width: 100%;
         padding-left: 0;
+        align-items: center;
        
 
     }
 
-    
     ul>li>a{
         text-decoration: none;
         background-color: $background-color;
@@ -39,10 +40,49 @@
         padding-right: 0.8rem;
         padding-top: 2rem;
         padding-bottom: 1rem;
+        transition: 0.5s;
     }
+    ul>li>a:hover{
+        background-color: #45515F;
+        color: #87a3bf;
+    }
+
+
     &-Fantasy{
         border-right: solid 0.7px $line-color;
     }
-    
-
+    .search{
+        max-height: 1rem;
+        background-color: $background-color;
+        display: block;
+        border: solid 1px $line-color;
+        margin-left: 1rem;
+        padding: 0.3rem 0 0.3rem 0;
+        width: 6rem;
+        position: relative;
+    }
+    .search::placeholder{
+        padding-left: 5px;
+    }
+    .navsearchborder{
+        position: absolute;
+        top: 15px;
+        right: 237px;
+        z-index: 1;
+        border-left: 1px solid #495867;
+        width: 0;
+        height: 20px;
+    }
+    button{
+        position: absolute;
+        top: 15px;
+        right: 220px;
+        z-index: 1;
+        color: #929a9e;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        background: 0 0;
+        cursor: pointer
+    }
 }
