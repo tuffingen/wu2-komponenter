@@ -13,7 +13,7 @@
         border-left: 1px solid #495867;
         width: 0;
         height: 20px;
-        margin: 13.5px 17px;
+        margin: 13.5px 5px;
 
     }
 
@@ -26,6 +26,7 @@
 
     img{
         height: 46px;
+        margin-left: 47px;
     }
 
     ul{
@@ -66,7 +67,7 @@
         border: solid 1px $line-color;
         margin-left: 1rem;
         padding: 0.3rem 0 0.3rem 0;
-        width: 6rem;
+        width: 100.22px;
         position: relative;
     }
     .search::placeholder{
@@ -99,15 +100,20 @@
     .navbell{
         color: $text-color;
         cursor: pointer;
+        margin-left: 0.7rem;
+
     }
 
     .mailicon{
         color: $text-color;
         margin-left: 1rem;
         cursor: pointer;
+        margin-right: 0.7rem;
     }
     .navarrow{
         color: $text-color;
         cursor: pointer;
+        margin-left: 0.7rem;
     }
+    
 }
