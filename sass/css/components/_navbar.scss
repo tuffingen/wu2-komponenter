@@ -8,7 +8,7 @@
 
     background-color: $background-color;
     line-height: 30px;
-    
+
     .navborder{
         border-left: 1px solid #495867;
         width: 0;
@@ -20,12 +20,12 @@
     nav{
         display: flex;
         padding-left: 6rem;
-        min-height: 46px;
+        height: 46px;
         
     }
 
     img{
-        height: 51.38px;
+        height: 46px;
     }
 
     ul{
@@ -44,10 +44,10 @@
         border-left: solid 0.7px $line-color;
         font-size: 14px;
         color: $text-color;
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
+        padding-left: 0.688rem;
+        padding-right: 0.688rem;
         padding-top: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.8rem;
         transition: 0.2s;
     }
     ul>li>a:hover{
@@ -73,9 +73,9 @@
         padding-left: 5px;
     }
     .navsearchborder{
-        position: absolute;
-        top: 15px;
-        right: 220px;
+        position: relative;
+        top: 0px;
+        right: 40px;
         z-index: 1;
         border-left: 1px solid #495867;
         width: 0;
@@ -100,6 +100,7 @@
         color: $text-color;
         cursor: pointer;
     }
+
     .mailicon{
         color: $text-color;
         margin-left: 1rem;
