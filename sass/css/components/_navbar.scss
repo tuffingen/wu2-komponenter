@@ -2,6 +2,7 @@
    font-family: $font-family;
    margin: 0;
    padding: 0;
+   font-size: 14px;
 }
 
 .navbar{
@@ -61,13 +62,13 @@
         border-right: solid 0.7px $line-color;
     }
     .search{
-        max-height: 1rem;
+        min-height: 1rem;
         background-color: $background-color;
         display: block;
         border: solid 1px $line-color;
         margin-left: 1rem;
         padding: 0.3rem 0 0.3rem 0;
-        width: 100.22px;
+        width: 110.22px;
         position: relative;
     }
     .search::placeholder{

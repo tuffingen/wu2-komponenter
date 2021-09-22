@@ -6,6 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 14px;
 }
 
 .navbar {
@@ -54,13 +55,13 @@ body {
   border-right: solid 0.7px #495867;
 }
 .navbar .search {
-  max-height: 1rem;
+  min-height: 1rem;
   background-color: #2d3844;
   display: block;
   border: solid 1px #495867;
   margin-left: 1rem;
   padding: 0.3rem 0 0.3rem 0;
-  width: 100.22px;
+  width: 110.22px;
   position: relative;
 }
 .navbar .search::placeholder {
